@@ -1,0 +1,44 @@
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.navbar nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar nav ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+  color: #ffc107; /* Change color on hover */
+}
+
+.navbar .active a {
+  color: #ffc107; /* Highlight active link */
+  font-weight: bold;
+}
